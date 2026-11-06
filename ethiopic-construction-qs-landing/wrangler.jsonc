@@ -1,9 +1,8 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
   "name": "ethiopic-construction-qs-landing",
   "compatibility_date": "2026-11-05",
   "assets": {
-    "directory": "./public",
-    "binding": "ASSETS"
+    "directory": "./public"
   }
 }
